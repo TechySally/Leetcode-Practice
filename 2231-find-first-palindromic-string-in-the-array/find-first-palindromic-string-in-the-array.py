@@ -7,8 +7,5 @@ class Solution(object):
         returnedword = ""
         for word in words:
             if word == word[::-1]:
-                returnedword = word
-                return returnedword
-            else:
-                continue
+                return word
         return ""
