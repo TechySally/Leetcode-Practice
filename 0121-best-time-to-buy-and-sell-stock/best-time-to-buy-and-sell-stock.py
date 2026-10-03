@@ -11,7 +11,7 @@ class Solution(object):
         for price in prices:
             if price < minprice:
                 minprice = price
-            if price - minprice > maxprofit:
+            elif price - minprice > maxprofit:
                 maxprofit = price - minprice
         return maxprofit
 
