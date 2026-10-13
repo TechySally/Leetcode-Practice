@@ -6,6 +6,7 @@ class Solution(object):
         """
         sorted_arr= ["".join(sorted(word)) for word in strs]
         print(sorted_arr)
+        
         keys = {}
         for i,word in enumerate(sorted_arr):
             if word in keys:
